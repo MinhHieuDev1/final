@@ -1,0 +1,307 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #1E2129;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container
+{
+    max-width: 84%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container > article
+{
+    min-height:400px;
+    width:75%;
+    float:left;
+    padding-top: 20px;
+    position: relative;
+}
+    .box-img{
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .box-icon{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 30px;
+        background-color: #1E2129;
+        color: #D0D3DC;
+        position: relative;
+    }
+    .box-icon>p{
+        margin: 10px;
+    }
+    .box-icon>img{
+        width: 3%;
+        height: 3%;
+    }
+    .box-icon>p{
+        color: #D0D3DC;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .box-cmt{
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+    }
+        .box-cmt-head{
+            background-color: #242831;
+            width: 100%;
+            padding: 10px 30px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            color: #D0D3DC;
+            position: relative;
+        }
+        .box-cmt-head>p{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .box-cmt-body{
+            background-color: #343946;
+            width: 100%;
+            padding: 20px 30px;
+            color: #D0D3DC;
+            position: relative;
+        }
+            input{
+                width: 100%;
+                margin: 0 auto;
+                background-color: #242831;
+                border-radius: 20px;
+                padding: 10px 12px;
+                color: #D0D3DC;
+                border: 2px solid #343946;
+            }
+        .box-cmt-foot{
+            background-color: #242831;
+            width: 100%;
+            padding: 30px 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: #D0D3DC;
+            position: relative;
+            margin-bottom: 100px;
+        }
+        .box-cmt-foot>a{
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 12px;
+            color: #D0D3DC;
+        }
+
+.container > aside
+{
+    min-height:400px;
+    width:25%;
+    float:right;
+    position: relative;
+    padding: 20px 20px 0px;
+}
+    .box-title{
+        color: #D0D3DC;
+        width: 100%;
+        font-size: 14px;
+        opacity: .4;
+        margin: 0px 0px 10px;
+        position: relative;
+    }
+        .box-stats-head{
+            width: 100%;
+            font-weight: 700;
+            font-size: 18px;
+            color: #D0D3DC;
+            margin:0x 0px 5px;
+            position: relative;
+        }
+        .box-stats-body{
+            width: 100%;
+            font-size: 14px;
+            color: #D0D3DC;
+            margin: 0px 0px 10px;
+            padding: 0px 0px 5px;
+            border-bottom: 1px solid #343946;
+            position: relative;
+        }
+    .box-box{
+        width: 50%;
+        height: auto;
+        border-radius: 30px;
+        color: #D0D3DC;
+        padding: 8px 20px;
+        border: 1px solid #D0D3DC;
+        text-align: center;
+        position: relative;
+    }
+    .box-box>a{
+        font-size: 16px;
+        color: #D0D3DC;
+    }
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #343946;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+    .a-header{
+        color: #D0D3DC;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+nav{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    background-color: #1E2129;
+    border-bottom: 1px solid #343946;
+}
+    button{
+        padding: 5px 10px;
+        position: absolute;
+        right: 8%;
+        top: 0px;
+        border-radius: 30px;
+        height: 50px;
+        width: 150px;
+        background-color: #1E2129;
+        border: 2px solid #1c792d;
+    }
+        button:hover{
+            background-color: #1c792d;
+        }
+        .p-download{
+            font-size: 18px;
+            margin: -14px;
+            color: #FFFFFF;
+        }
+        .p-size{
+            margin: -14px;
+            font-size: 14px;
+            color: #D0D3DC;
+        }
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #181A20;
+    text-align: center;
+    color: #D0D3DC;
+    padding: 20px 0px 100px;
+    position: relative;
+}
+    .a-footer{
+        color: #D0D3DC;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .p-footer{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+}
+
+h2{
+    font-size: 22px;
+    color: #D0D3DC;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 16px;
+    color: #D0D3DC;
+    padding: 5px 0px;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #c53878;
+}
+
+li{
+    font-size: 16px;
+    color: #D0D3DC;
+    margin: 0px 0px 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.circle1{
+    width: 50px;
+    height: 50px;
+    background-color: deepskyblue;
+    border-radius: 50px;
+    margin-top: 10px;
+    position: relative;
+}
+.circle1>h2{
+    position: absolute;
+    left: 65px;
+    top: -5px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    background-color: #c53878;
+    border-radius: 50px;
+    margin-top: 10px;
+    position: relative;
+}
+.circle2>h2{
+    position: absolute;
+    left: 65px;
+    top: -5px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.p1{
+    position: absolute;
+    left: 95px;
+    top: 95px;
+    font-size: 14px;
+    color: #D0D3DC;
+}
+
+.p2{
+    position: absolute;
+    left: 95px;
+    top: 170px;
+    font-size: 14px;
+    color: #D0D3DC;
+}

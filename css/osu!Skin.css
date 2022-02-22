@@ -1,0 +1,242 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #1E2129;
+    position: relative;
+}
+
+.container{
+    width: 84%;
+    margin: 0% auto;
+}
+    .container-nav{
+        margin: 10% 0% 2%;
+    }
+    .container-article{
+        padding: 20px;
+    }
+    .container-head{
+        width: 64%;
+        margin: 2% 18% 2%;
+        text-align: center;
+        position: relative;
+    }
+    .container-body{
+        width: 64%;
+        margin: 2% 18% 2%;
+        padding: 0px 0px 20px;
+        position: relative;
+    }
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #343946;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+    .a-header{
+        color: #D0D3DC;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+nav{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+    .input-search{
+        border-radius: 50px;
+        border: 2px solid #343946;
+        height: 35px;
+        width: 300px;
+        padding: 6px 30px 6px 12px;
+    }
+    input{
+        border-radius: 18px;
+        border: 2px solid #343946;
+        height: 36px;
+        width: auto;
+        margin: 5px;
+        padding: 5px 15px;
+        background-color: #1E2129;
+        color: #D0D3DC;
+    }
+        .input-search{
+            width: 250px;
+        }
+        .input-modes{
+            width: 125px;
+        }
+        .input-players{
+            width: 175px;
+        }
+        .input-sortby{
+            width: 140px;
+        }
+        .input-time{
+            width: 170px;
+        }
+        .input-order{
+            width: 145px;
+        }
+    .button-update{
+        border-radius: 18px;
+        border: 2px solid #c53878;
+        height: 36px;
+        width: auto;
+        margin: 5px;
+        padding: 5px 15px;
+        background-color: #1E2129;
+        color: #D0D3DC;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .button-update:hover{
+        background-color: #c53878;
+    }
+
+article{
+    width: 100%;
+    background-color: #1E2129;
+    position: relative;
+}
+    .box{
+        width: 30%;
+        height: auto;
+        border-radius: 10px;
+        background-color: #343946;
+        margin: 0px 20px 40px;
+        padding: 10px;
+        float: left;
+        position: relative; 
+    }
+    .box-head{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .box-stats{
+        width: auto;
+        height: auto;
+        margin: 10px 0px 0px;
+        padding: 3px 6px 3px;
+        background-color: #0000004D;
+        position: absolute;
+        left: 33%;
+        color: #FFFFFFB3;
+        border-radius: 20px;
+    }
+    .box-stats-cmt{
+        width: auto;
+        height: auto;
+        margin: 10px 0px 0px;
+        padding: 3px 6px 3px;
+        background-color: #0000004D;
+        position: absolute;
+        left: 26%;
+        color: #FFFFFFB3;
+        border-radius: 20px;
+    }
+    .box-body{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 25px 0px 0px;
+        position: relative;
+    }
+    .img-box{
+        width: 100%;
+        height: 100%;
+        border-radius: 9px;
+    }
+    .h2-box{
+        font-size: 22px;
+        color: #D0D3DC;
+    }
+
+
+    tr td{
+        width: 30px;
+        border-collapse: separate;
+        text-align: center;
+        color: #D0D3DC;
+    }
+    table{
+        width: 300px;
+        margin: 20px;
+    }
+    td:hover {
+        background-color: #c53878;
+        transition: 0.2s;
+    }
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #181A20;
+    text-align: center;
+    color: #D0D3DC;
+    padding: 20px 0px 100px;
+    position: relative;
+}
+    .a-footer{
+        color: #D0D3DC;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .p-footer{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .footer-contact
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+h1{
+    font-size: 32px;
+    color: #D0D3DC;
+    padding: 5px 0px;
+}
+
+h2{
+    font-size: 22px;
+    color: #D0D3DC;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 16px;
+    color: #D0D3DC;
+    padding: 5px 0px;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #c53878;
+}
+
+li{
+    font-size: 16px;
+    color: #D0D3DC;
+    margin: 0px 0px 10px;
+}
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,363 @@
+/* all */
+*{
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+        /* main */
+body{
+    width: 1517px;
+    padding: 0%;
+    margin: 0%;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.container{
+    margin: 0% 8%;
+    position: relative;
+}
+
+        /* home */
+.header{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav{
+    width: 100%;
+    border: 1px solid gainsboro;
+    background-color: white;  
+    position: fixed;
+    top: 84px;
+    z-index: 10;
+}
+    .nav-menu{
+        text-align: center;
+        padding: 12px 0px;
+        position: relative;
+    }
+
+.container > article
+{
+    min-height:430px;
+    width: 100%;
+    position: relative;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+    .box-signin{
+        width: 50%;
+        background-color: #ccc;
+        margin: 100px auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .form-control{
+        border-radius: 50px;
+        width: 90%;
+        margin-top: 5px;
+        height: 30px;
+        border: 3px solid #D1D1D1;
+        padding-left: 10px;
+    
+    }
+    .form-group{
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+        margin: 10px 10px;
+        text-align: center;
+    }
+    .form-group>label{
+        float: left;
+        margin: 0px 0px 0px 30px;
+    }
+
+    .form-button{
+        text-align: center;
+         width: 100%;
+         height: 80px;
+         line-height: 80px;
+     }
+     .form-button2{
+         text-align: center;
+          width: 100%;
+          height: 100px;
+          line-height: 100px;
+      }
+     button{
+         width: 80px;
+         height: 30px;
+         outline: none;
+         font-size: 12px;
+         border: 0px solid;
+         margin-left: 10px;
+         font-weight: bold;
+         border-radius: 20px;
+         color: black;
+         box-shadow: inset 0px 0px 10px 2px #FF1700;
+     }
+     button>a{
+         color: black;
+         text-decoration: none;
+     }
+     button:hover{
+         box-shadow: inset 0px 0px 10px 2px #B33030;
+     }
+     .form-checkbox{
+         font-weight: bold;
+         color: black;
+         font-size: 15px;
+         width: 100%;
+         height: 30px;
+         line-height: 30px;
+         margin: 0 auto;
+     }
+     .form-checkbox>label{
+         float: left;
+         margin: 0px 0px 0px 40px
+     }
+    
+
+.box-report{
+    width: 100%;
+        color: #727272;
+        font-size: 14px;
+        padding: 20px 15px 15px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        margin-top: 20px;
+        position: relative;
+}
+.box-report-box{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(235, 118, 118);
+    position: relative;
+}
+
+.box-report-box>a{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.box{
+    width: 32%;
+    height: auto;
+    border-radius: 3%;
+    background-color: white;
+    margin: 0px 6px 12px;
+    float: left;
+    position: relative; 
+}
+    .box-header{
+        width: 100%;
+        height: auto;
+        padding: 15px 12px 3px 12px;
+    }
+        .box-header-left{
+            position: absolute;
+            left: 20px;
+        }
+
+        .box-header-right{
+            position: absolute;
+            right: 20px;
+        }
+
+    .box-body{
+        padding: 26px 12px 12px;
+    }
+
+    .box-vers{
+        background-color: white;
+        border-radius: 100px;
+        border: 1px solid gainsboro;
+        padding: 1.5% 3%;
+        text-align: center;
+        position: absolute;
+        bottom: 10%;
+        left: 8%;
+        font-size: 16px;
+    }
+
+    .box-search{
+        position: absolute;
+        top: 16px;
+        left: 20%;
+    }
+        .input-search{
+            border-radius: 50px;
+            border: 1px solid gainsboro;
+            height: 35px;
+            width: 300px;
+            padding: 6px 30px 6px 12px;
+        }
+
+    .box-next{
+        width: 8%;
+        text-align: center;
+        background-color: white;
+        padding: 10px 16px;  
+        margin: 0px 5% 20px;
+        border-radius: 12px;
+        float: right;
+    }
+    .box-previous{
+        width: 10%;
+        text-align: center;
+        background-color: white;
+        padding: 10px 16px;  
+        margin: 0px 5% 20px;
+        border-radius: 12px;
+        float: left;
+    }
+
+    .box-menu{
+        width: 15%;
+        padding: 15px;
+    }
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px 0px;
+    position: relative
+}
+    .pageview{
+        position: absolute;
+        top: 1%;
+        right: 9%;
+    }
+
+.h3{
+    font-size: 30px;
+    padding: 0px 0px 10px 20px;
+    color: #324148;
+    margin: 20px 0px 5px;
+}
+
+.a{
+    text-decoration: none;
+    color: #324118;
+    font-size: 14px;
+    font-weight: 600;
+}
+    .a:hover{
+        color: rgb(223, 153, 94)
+    }
+
+    .a-menu{
+        margin: 0px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #727272;
+        text-shadow: 0px 0px 0px rgb(255, 210, 159);
+    }
+
+    .a-menu:hover{
+        color: rgb(223, 153, 94);
+    }
+
+    .a-next-previous{
+        font-size: 18px;
+        text-decoration: none;
+        color: #727272;
+    }
+    
+    .a-next-previous:hover{
+        color: rgb(223, 153, 94);
+    }
+
+    .a-footer{
+    text-decoration: none;
+    color: #727272;
+    font-size: 14px;
+    color: rgb(223, 153, 94);
+    }
+
+.p{
+    font-size: 12px;
+    color: #727272;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}   
+    .img-user{
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        position: absolute;
+        top: 0%;
+        right: 2%;
+    }
+
+.hmenu{
+    list-style: none;
+    }
+    
+    .hmenu>li{
+        display: block;
+        position: absolute;
+        top: 0%;
+        right: 2%;
+    }
+    
+    .hmenu>li:hover>.smenu
+    {
+        display: block;
+    }
+    
+    .smenu
+    {
+        list-style: none;
+        position: absolute;
+        top: 75px;
+        right: 20px;
+        width: 150px;
+        background-color: #eee;
+        padding: 10px 20px;
+        display: none;
+        z-index: 100;
+    }
+    
+    .smenu>li
+    {
+        display: block;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .smenu>li>a
+    {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.2em;
+        display: block;
+        padding: 10px 5px;
+    }
+    
+    .smenu>li:hover a
+    {
+        background-color: greenyellow;
+        color: #333;
+    }
+
+.clear
+{
+    clear: both;
+}
